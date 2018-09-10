@@ -1,0 +1,19 @@
+{
+  "name": "async-iterators",
+  "version": "0.0.1",
+  "description": "Asynchronous Iterators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Asynchronous",
+    "async",
+    "iterators",
+    "functional",
+    "reactive",
+    "programming"
+  ],
+  "author": "Santosh Rajan",
+  "license": "MIT"
+}
