@@ -2,7 +2,10 @@
 Asynchronous iterators for event handilng in JavaScript
 
 ## install
-Just copy index.mjs to the relevant folder
+Just copy index.mjs to the relevant folder or
+```
+$ npm install @santoshrajan/async-iterators
+``` 
 
 ## Example
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "async-iterators",
+  "name": "@santoshrajan/async-iterators",
   "version": "0.0.1",
   "description": "Asynchronous Iterators",
   "main": "index.js",
@@ -15,5 +15,9 @@
     "programming"
   ],
   "author": "Santosh Rajan",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santoshrajan/async-iterators.git"
+  }
 }
