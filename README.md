@@ -5,7 +5,7 @@ Asynchronous iterators for event handilng in JavaScript
 Just copy index.mjs to the relevant folder or
 ```
 $ npm install @santoshrajan/async-iterators
-``` 
+```
 
 ## Example
 ```
@@ -32,7 +32,7 @@ import {
 
 const store = function createStore () {
   var counter = 0
-  return (n) => counter += n 	
+  return (n) => counter += n
 }()
 
 function render (n) {
@@ -55,9 +55,4 @@ render(0)
 </script>
 </body>
 </html>
-
-</script>
-</body>
-</html>
-
 ```
