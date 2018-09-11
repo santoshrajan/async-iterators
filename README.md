@@ -8,7 +8,7 @@ $ npm install @santoshrajan/async-iterators
 ```
 
 ## Example
-```html5
+```html
 <!DOCTYPE html>
 <html>
   <head>
