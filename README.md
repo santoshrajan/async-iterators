@@ -40,23 +40,21 @@ function render (n) {
   return n
 }
 
-function pipe (...fns) {
-  return function (n) {
-    for (const f of fns) n = f(n)
-  }
-}
+let plusIterator = clickIterator('#plus')
+plusIterator = mapIterator(plusIterator, e => store(1))
 
-const handleButtonClicks = pipe(store, render)
-
-const plusIterator = mapIterator(clickIterator('#plus'), e => 1)
-
-const minusIterator = mapIterator(clickIterator('#minus'), e => -1)
+let minusIterator = clickIterator('#minus')
+minusIterator = mapIterator(minusIterator, e => store(-1))
 
 const allIterator = mergeIterators(plusIterator, minusIterator)
 
-runIterator(allIterator, handleButtonClicks)
+runIterator(allIterator, render)
 
-handleButtonClicks(0)
+render(0)
+
+</script>
+</body>
+</html>
 
 </script>
 </body>
