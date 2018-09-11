@@ -3,12 +3,12 @@ Asynchronous iterators for event handilng in JavaScript
 
 ## install
 Just copy index.mjs to the relevant folder or
-```
+```bash
 $ npm install @santoshrajan/async-iterators
 ```
 
 ## Example
-```
+```html5
 <!DOCTYPE html>
 <html>
   <head>
